@@ -1,5 +1,5 @@
 .navbar {
-    background-color: #333;
+    background-color: #42b883;
     color: #fff;
     display: flex;
     justify-content: space-between;
@@ -19,6 +19,7 @@
   .nav-links li a {
     color: #fff;
     text-decoration: none;
+    font-weight: bold;
     padding: 5px;
   }
   
@@ -26,7 +27,8 @@
     border-bottom: 2px solid #fff;
   }
   
-  .logo img {
-    width: 100px; /* Adjust the size of the logo as needed */
+  .grocery img {
+    width: 50px;
+    height: 50px;
   }
   
