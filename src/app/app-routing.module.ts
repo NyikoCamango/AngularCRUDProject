@@ -8,7 +8,7 @@ import { HomeComponent } from './home/home.component';
 const routes: Routes = [
   { path: 'category', component: Section2Component},
   {path: 'Product',component:SectionComponent},
-  {path: 'Home',component:HomeComponent }
+  {path: 'Home',component:HomeComponent },
 
 ];
 
