@@ -32,3 +32,36 @@
     height: 50px;
   }
   
+  /* Additional styles for the dropdown menu */
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    list-style: none;
+    padding: 0;
+    margin: 0; /* Remove any default margin */
+  }
+  
+  .open .dropdown {
+    display: block;
+  }
+  
+  .dropdown li {
+    margin-right: 0; /* Remove the margin from the dropdown items */
+  }
+  
+  .dropdown li a {
+    color: #333;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+  }
+  
+  .dropdown li a:hover {
+    background-color: #f1f1f1;
+  }
+  

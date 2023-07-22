@@ -27,12 +27,6 @@
     margin-bottom: 20px;
   }
   
-  .product-item img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 10px;
-  }
-  
   .product-item h3 {
     color: #333;
     font-size: 18px;
@@ -61,5 +55,13 @@
   
   .product-item button:hover {
     background-color: #3d9e7a;
+  }
+  .product-item img {
+    width: 100%; /* Use 100% to make the image fit within its container */
+    height: 200px; /* Adjust this value to your desired image height */
+    object-fit: cover; /* This property ensures the image maintains its aspect ratio */
+    border: 1px solid #ccc; /* Optional: Add a border around the images */
+    border-radius: 5px;
+    margin-bottom: 10px; /* Add margin to the bottom of the image to separate them */
   }
   

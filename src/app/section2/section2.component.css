@@ -1,6 +1,6 @@
 .grocery-section {
     padding: 20px;
-    background-color: #fff;
+    background-color: #f9f9f9;;
     text-align: center;
   }
   
@@ -60,3 +60,7 @@
     background-color: #3d9e7a;
   }
   
+  .category-item img {
+    max-width: 100%; /* Ensures the image does not exceed its container's width */
+    border-radius: 5px; /* Adds a rounded border to the image (adjust as needed) */
+  }
