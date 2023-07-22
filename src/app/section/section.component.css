@@ -1,0 +1,65 @@
+.grocery-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .section-heading {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .section-heading h2 {
+    color: #333;
+    font-size: 24px;
+  }
+  
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .product-item {
+    width: 250px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .product-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .product-item h3 {
+    color: #333;
+    font-size: 18px;
+  }
+  
+  .product-item p {
+    color: #666;
+    font-size: 14px;
+  }
+  
+  .product-item .price {
+    color: #42b883;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .product-item button {
+    background-color: #42b883;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .product-item button:hover {
+    background-color: #3d9e7a;
+  }
+  

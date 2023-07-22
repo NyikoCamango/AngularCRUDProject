@@ -1,0 +1,62 @@
+.grocery-section {
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .section-heading {
+    margin-bottom: 20px;
+  }
+  
+  .section-heading h2 {
+    color: #333;
+    font-size: 24px;
+  }
+  
+  .category-highlights {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .category-item {
+    width: 300px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .category-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .category-item h3 {
+    color: #333;
+    font-size: 20px;
+  }
+  
+  .category-item p {
+    color: #666;
+    font-size: 14px;
+  }
+  
+  .category-item a {
+    display: inline-block;
+    margin-top: 15px;
+    background-color: #42b883;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 15px;
+    font-size: 14px;
+    border-radius: 4px;
+  }
+  
+  .category-item a:hover {
+    background-color: #3d9e7a;
+  }
+  
