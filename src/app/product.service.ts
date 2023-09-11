@@ -6,6 +6,8 @@ import { Injectable } from '@angular/core';
 })
 export class ProductService {
 private productUrl="http://localhost:3000/products"
+private CategoryUrl="http://localhost:3000/categories"
+
   constructor(private http: HttpClient) { 
 
   }
@@ -14,5 +16,9 @@ private productUrl="http://localhost:3000/products"
   {
     return this.http.get(this.productUrl)
     
+  }
+  GetAllCategories()
+  {
+    return this.http.get(this.CategoryUrl)
   }
 }
