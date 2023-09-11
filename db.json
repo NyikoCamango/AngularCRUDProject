@@ -1,0 +1,21 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "Lord wish"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Banana",
+      "image":"assets/images/banana.jpeg",
+      "description": "Delicious and ripe bananas with a natural sweetness. A great source of potassium and energy. Enjoy as a quick snack or add to your favorite recipes.",
+      "price": "R 100"
+    }
+  ],
+  "profile": {
+    "name": "Lord wish"
+  }
+}

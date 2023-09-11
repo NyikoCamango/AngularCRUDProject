@@ -2,7 +2,7 @@
     <div class="section-heading">
       <h2>Featured Products</h2>
     </div>
-  
+<!--   
     <div class="product-list">
       <div class="product-item">
         <img src="assets/images/Spinach.jpeg" alt="Product 1">
@@ -12,21 +12,30 @@
         <div>
         <button>Add to Cart</button>
     </div>
+      </div> -->
+
+      <div *ngFor="let product of products" class="product-item">
+        <img [src]="product.image" alt="{{ product.name }}">
+        <h3>{{ product.name }}</h3>
+        <p>{{ product.description }}</p>
+        <span class="price">{{ product.price }}</span>
+        <div>
+          <button>Add to Cart</button>
+        </div>
       </div>
-      
-      <div class="product-item">
+<!--       
+      <div class="product-item" >
         <img src="assets/images/banana.jpeg" alt="Product 2">
-        <h3>Banana</h3>
+        <h3>{{product.name}}</h3>
         <p>Delicious and ripe bananas with a natural sweetness. A great source of potassium and energy. Enjoy as a quick snack or add to your favorite recipes.</p>
-        <span class="price">R34.99</span>
+        <span class="price">{{product.price}}</span>
         <div>
             <button>Add to Cart</button>
 
         </div>
-
-      </div>
+      </div> -->
       
-      <div class="product-item">
+      <!-- <div class="product-item">
         <img src="assets/images/Broccoli.jpeg" alt="Product 3">
         <h3>Broccoli</h3>
         <p>Fresh and crisp broccoli florets, packed with essential nutrients and antioxidants. Ideal for steaming, stir-frying, or adding to your favorite pasta dishes.</p>
@@ -45,6 +54,6 @@
             <button>Add to Cart</button>
         </div>
       </div>
-    </div>
+    </div> -->
   </section>
   

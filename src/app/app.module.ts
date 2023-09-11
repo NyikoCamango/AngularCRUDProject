@@ -8,6 +8,7 @@ import { SectionComponent } from './section/section.component';
 import { Section2Component } from './section2/section2.component';
 import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
+import {HttpClientModule} from '@angular/common/http'
 
 @NgModule({
   declarations: [
@@ -17,10 +18,13 @@ import { FooterComponent } from './footer/footer.component';
     HomeComponent,
     FooterComponent,
     
+
+    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
