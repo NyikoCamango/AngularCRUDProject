@@ -1,11 +1,14 @@
   <nav class="navbar">
     <div class="grocery">
+      <a [routerLink]="['/Home']">
       <img src="assets/images/istockphoto-1205419959-612x612.jpeg" alt="Grocery Store Logo">
+    </a>
     </div>
     <ul class="nav-links">
-      <li><a routerLink="/Home">Home</a></li>
+      <li><a routerLink="/RegisterForm">Register</a></li>
+      <li><a routerLink="/LoginForm">Login</a></li>
       <li><a routerLink="/Product">Products</a></li>
-      <li><a routerLink="/category">Categories</a></li>
+      <li><a routerLink="/Category">Categories</a></li>
       <li><a routerLink="#">Cart</a></li>
       <li><a routerLink="#">Contact</a></li>
     </ul>

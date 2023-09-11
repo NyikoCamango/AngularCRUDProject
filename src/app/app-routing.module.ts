@@ -6,7 +6,7 @@ import { SectionComponent } from './section/section.component';
 import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
-  { path: 'category', component: Section2Component},
+  { path: 'Category', component: Section2Component},
   {path: 'Product',component:SectionComponent},
   {path: 'Home',component:HomeComponent },
 
