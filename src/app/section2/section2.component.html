@@ -3,19 +3,11 @@
       <h2>Category </h2>
     </div>
     <div class="category-highlights">
-      <div class="category-item">
-        <img src="assets/images/fruits.jpeg" alt="Fruits Category">
-        <h3>Fruits</h3>
-        <p>Explore a wide variety of fresh and juicy fruits.</p>
-        <a href="#">View Products</a>
+      <div class="category-item" *ngFor="let category of categories">
+        <img [src]="category.image" [alt]="category.name + ' Category'">
+        <h3>{{ category.name }}</h3>
+        <p>{{ category.description }}</p>
       </div>
-      <div class="category-item">
-        <img src="assets/images/vegitables.jpeg" alt="Vegetables Category">
-        <h3>Vegetables</h3>
-        <p>Discover farm-fresh and healthy vegetables.</p>
-        <a href="#">View Products</a>
-      </div>
-      <!-- Add more category items here -->
     </div>
   </section>
   

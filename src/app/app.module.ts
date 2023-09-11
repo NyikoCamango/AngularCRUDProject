@@ -17,6 +17,7 @@ import {HttpClientModule} from '@angular/common/http'
     SectionComponent,
     HomeComponent,
     FooterComponent,
+    Section2Component
     
 
     

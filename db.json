@@ -12,33 +12,45 @@
       "name": "Banana",
       "image":"assets/images/banana.jpeg",
       "description": "Delicious and ripe bananas with a natural sweetness. A great source of potassium and energy. Enjoy as a quick snack or add to your favorite recipes.",
-      "price": "R 100"
+      "price": "R36.99"
     },
     {
       "id": 2,
       "name": "Brocolli",
       "image":"assets/images/Broccoli.jpeg",
       "description": "Fresh and crisp broccoli florets, packed with essential nutrients and antioxidants. Ideal for steaming, stir-frying, or adding to your favorite pasta dishes.",
-      "price": "R 100"
+      "price": "R39.99"
     },
     {
       "id": 3,
       "name": "Spinach",
       "image":"assets/images/Spinach.jpeg",
       "description": "Fresh and nutritious spinach leaves harvested from organic farms. Packed with vitamins and minerals, perfect for salads, smoothies, or as a healthy side dish.",
-      "price": "R 100"
+      "price": "R 29.99"
     },
     {
       "id": 4,
       "name": "Avocado",
       "image":"assets/images/ovacado.jpeg",
       "description": "Creamy and nutritious avocados, rich in healthy fats and fiber. Perfect for making guacamole, adding to sandwiches, or enjoying as a satisfying snack.",
-      "price": "R 100"
+      "price": "R R54.99"
     }
 
 
   ],
-  "profile": {
-    "name": "Lord wish"
-  }
+  "categories":[
+    {
+      "id":1,
+      "name": "Fruits ",
+      "description":"Explore a wide variety of fresh and juicy fruits.",
+      "image":"assets/images/fruits.jpeg"
+
+    },
+    {
+      "id":2,
+      "name": "Vegitables ",
+      "description":"Discover farm-fresh and healthy vegetables.",
+      "image":"assets/images/vegitables.jpeg"
+    }
+  ]
 }
