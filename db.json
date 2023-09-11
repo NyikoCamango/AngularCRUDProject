@@ -1,0 +1,44 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "Lord wish"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Banana",
+      "image":"assets/images/banana.jpeg",
+      "description": "Delicious and ripe bananas with a natural sweetness. A great source of potassium and energy. Enjoy as a quick snack or add to your favorite recipes.",
+      "price": "R 100"
+    },
+    {
+      "id": 2,
+      "name": "Brocolli",
+      "image":"assets/images/Broccoli.jpeg",
+      "description": "Fresh and crisp broccoli florets, packed with essential nutrients and antioxidants. Ideal for steaming, stir-frying, or adding to your favorite pasta dishes.",
+      "price": "R 100"
+    },
+    {
+      "id": 3,
+      "name": "Spinach",
+      "image":"assets/images/Spinach.jpeg",
+      "description": "Fresh and nutritious spinach leaves harvested from organic farms. Packed with vitamins and minerals, perfect for salads, smoothies, or as a healthy side dish.",
+      "price": "R 100"
+    },
+    {
+      "id": 4,
+      "name": "Avocado",
+      "image":"assets/images/ovacado.jpeg",
+      "description": "Creamy and nutritious avocados, rich in healthy fats and fiber. Perfect for making guacamole, adding to sandwiches, or enjoying as a satisfying snack.",
+      "price": "R 100"
+    }
+
+
+  ],
+  "profile": {
+    "name": "Lord wish"
+  }
+}
