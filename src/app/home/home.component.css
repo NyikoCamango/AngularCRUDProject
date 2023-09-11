@@ -1,45 +1,57 @@
-.home-section {
-    padding: 20px;
-  }
-  
+
+.hero {
+  background-image: url('src/assets/images/background.jpg');
+  background-size: cover;
+  background-position: center; 
+  color: #fff;
+  height: 620px;
+  padding: 50px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 36px;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #42b883;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #53ca91;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+@media screen and (max-width: 768px) {
   .hero {
-    background-image: url('src/assets/images/background.jpg');
-    background-size: cover;
-    color: #fff;
-    height:550px;
-    padding: 50px;
-    text-align: center;
+    height: auto; 
+    padding: 20px; 
   }
-  
+
   .hero h1 {
-    font-size: 36px;
+    font-size: 24px; 
   }
-  
+
   .hero p {
-    font-size: 20px;
-    margin-top: 20px;
+    font-size: 16px; 
   }
-  
+
   .btn {
-    display: inline-block;
-    background-color: #42b883;
-    color: #fff;
-    border: none;
-    padding: 12px 24px;
-    font-size: 16px;
-    border-radius: 5px;
-    cursor: pointer;
+    font-size: 14px; /* Reduce font size for smaller screens */
   }
-  
-  .btn:hover {
-    background-color: #53ca91;
-  }
-  
-  .btn:focus {
-    outline: none;
-  }
-
- 
-
-  
-  
+}
