@@ -5,6 +5,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px;
+  align-content: center;
 }
 
 .nav-links {
@@ -48,13 +49,9 @@
 
   .nav-links {
     flex-direction: column; 
-    position: absolute;
-    top: 60px; 
-    left: 0;
-    width: 100%;
-    background-color: #42b883;
-    z-index: 1;
-    display: none;
+    display: flex;
+
+  
   }
 
   .menu-toggle.open + .nav-links {
@@ -63,10 +60,151 @@
   }
 
   .nav-links li {
-    margin: 0; 
+    margin:2px 0; 
+    display: flex;
+
   }
 
   .menu-toggle.open {
     transform: rotate(90deg); 
   }
 }
+
+
+.navbar-nav {
+  /* margin-left: 389px; */
+  width: auto;
+  justify-content: end;
+ 
+}
+
+.navbar{
+  height: 70px;
+  padding: 15px;
+}
+
+.navbar-nav .nav-link {
+  margin-right: 10px; 
+  display: flex;
+  align-items: left;
+  justify-content: left;
+}
+
+.img-fluid{
+  margin-left: 10px;
+}
+
+.white-text .nav-link {
+  color: white;
+  text-align: center;
+  font-size: var(--font-medium);
+  font-style: normal;
+  font-weight: var(--regular);
+  line-height: normal;
+}
+
+.mobile-only{
+  display: none;
+}
+.mat-icon {
+  font-size: var(--font-x-large);
+  text-align: center;
+  height: auto;
+  width:auto;
+}
+.dropdown{
+}
+.profile{
+  display: flex;
+  width:100%;
+  height: 100%;
+  justify-content: right;
+  align-items: center;
+  margin: 0;
+  padding:0;
+  margin-right: 2%;
+}
+
+.profileText{
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-size: var(--font-normal);
+  white-space: nowrap;
+}
+.nav-link{
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+
+}
+
+#middleNav{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-item{
+  white-space: nowrap;
+}
+
+.navbar-nav .nav-item.active .nav-link::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.navbar-nav hr {
+  display: none;
+}
+
+
+/* Media query for mobile devices */
+ @media (max-width: 999px) {
+  .navbar{
+    height: auto;
+    padding: 5px;
+  }
+    .img-fluid {
+      max-width: 70%;
+      min-width: auto;
+    }
+
+    .navbar-nav {
+      margin-left: 0px; 
+      padding-left: 20px;
+      display: flex;
+      height: auto;
+     }
+
+    #navbarNav{
+      background-color: var(--primary-color);
+      height: 95vh;
+    }
+
+     .white-text .nav-link {
+      color: white;
+      margin-left: 0px; 
+      display: flex;
+      align-items: left;
+      justify-content: left;
+    }
+
+    .mobile-only {
+      display: flex;
+    }
+
+    hr {
+      border: 1px solid white;
+    }
+
+    .navbar-nav hr {
+      display: flex;
+    }
+
+  }
