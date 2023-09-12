@@ -28,8 +28,6 @@
     width: 100%;
     max-width: 400px;
     box-shadow: #96C291;
-
-  
 }
 .close {
     float: right;
@@ -72,7 +70,8 @@ button[type="submit"] {
 
   h2 {
     text-align: center;
-    color: #96C291;
+    font-style: normal;
+    font-size: large;
   }
 
 h5 {
