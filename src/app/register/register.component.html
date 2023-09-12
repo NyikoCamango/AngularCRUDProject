@@ -2,19 +2,19 @@
     <div class="modal-content">
       <span class="close" ></span>
       <h2>Registration</h2>
-      <form>
+      <form (ngSubmit) = "onRegister()">
         <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
+        <input type="text" id="name" name="name" required [(ngModel)]="user.name">
   
         <label for="surname">Surname:</label>
-        <input type="text" id="surname" name="surname" required>
+        <input type="text" id="surname" name="surname" required [(ngModel)]=" user.surname">
   
         <label for="phoneNumber">Phone Number:</label>
-        <input type="tel" id="phoneNumber" name="phoneNumber" required>
+        <input type="tel" id="phoneNumber" name="phoneNumber" required [(ngModel)]=" user.phoneNumber">
 
         <label for="email">Email Address:</label>
-        <input type="email" id="email" name="email" required>
-        
+        <input type="email" id="email" name="email" required [(ngModel)]="user.email">
+
         <button type="submit">Register</button>
       </form>
     </div>
